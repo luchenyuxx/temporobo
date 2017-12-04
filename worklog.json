@@ -1,0 +1,46 @@
+{
+    "maxResults": 1,
+    "startAt": 0,
+    "total": 1,
+    "worklogs": [
+        {
+            "author": {
+                "active": true,
+                "avatarUrls": {
+                    "16x16": "https://support.neoxam.com/secure/useravatar?size=xsmall&ownerId=chenyu.lu&avatarId=19803",
+                    "24x24": "https://support.neoxam.com/secure/useravatar?size=small&ownerId=chenyu.lu&avatarId=19803",
+                    "32x32": "https://support.neoxam.com/secure/useravatar?size=medium&ownerId=chenyu.lu&avatarId=19803",
+                    "48x48": "https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&avatarId=19803"
+                },
+                "displayName": "Chenyu Lu",
+                "key": "chenyu.lu",
+                "name": "chenyu.lu",
+                "self": "https://support.neoxam.com/rest/api/2/user?username=chenyu.lu",
+                "timeZone": "Europe/Paris"
+            },
+            "comment": "work",
+            "created": "2017-11-30T11:13:32.000+0100",
+            "id": "591576",
+            "issueId": "357274",
+            "self": "https://support.neoxam.com/rest/api/2/issue/357274/worklog/591576",
+            "started": "2017-11-28T00:00:00.000+0100",
+            "timeSpent": "1d",
+            "timeSpentSeconds": 28800,
+            "updateAuthor": {
+                "active": true,
+                "avatarUrls": {
+                    "16x16": "https://support.neoxam.com/secure/useravatar?size=xsmall&ownerId=chenyu.lu&avatarId=19803",
+                    "24x24": "https://support.neoxam.com/secure/useravatar?size=small&ownerId=chenyu.lu&avatarId=19803",
+                    "32x32": "https://support.neoxam.com/secure/useravatar?size=medium&ownerId=chenyu.lu&avatarId=19803",
+                    "48x48": "https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&avatarId=19803"
+                },
+                "displayName": "Chenyu Lu",
+                "key": "chenyu.lu",
+                "name": "chenyu.lu",
+                "self": "https://support.neoxam.com/rest/api/2/user?username=chenyu.lu",
+                "timeZone": "Europe/Paris"
+            },
+            "updated": "2017-11-30T11:13:32.000+0100"
+        }
+    ]
+}

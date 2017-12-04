@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+  <id>https://support.neoxam.com/activity?streams=user+IS+chenyu.lu&amp;os_authType=basic</id>
+  <link href="https://support.neoxam.com/activity?streams=user+IS+chenyu.lu&amp;os_authType=basic" rel="self"/>
+  <title type="text">Activity Streams</title>
+  <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  <updated>2017-11-30T15:05:47.810Z</updated>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:4dce447a-c921-37bf-ad26-5f8cada0a938</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; updated 2 fields of       &lt;a href="https://support.neoxam.com/browse/NDF-4579"&gt;&lt;span class='resolved-link'&gt;NDF-4579&lt;/span&gt; - Amilton -Requ&#xEA;te SQL - Density- Global risk&lt;/a&gt;
+  </title>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '0 minutes'
+  &lt;li&gt;Logged '2 hours'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T11:30:53.000Z</published>
+    <updated>2017-11-30T11:30:53.000Z</updated>
+    <link href="https://support.neoxam.com/browse/NDF-4579" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4579" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4579" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:0e82ffed-a340-3253-a099-90276ac1529e</id>
+      <title type="text">NDF-4579</title>
+      <summary type="text">Amilton -Requ&#xEA;te SQL - Density- Global risk</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4579"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:25b37b8c-21fb-37d9-afaf-3048e284a620</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; updated the Tester of       &lt;a href="https://support.neoxam.com/browse/NDF-4579"&gt;&lt;span class='resolved-link'&gt;NDF-4579&lt;/span&gt; - Amilton -Requ&#xEA;te SQL - Density- Global risk&lt;/a&gt;
+  </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T11:30:21.000Z</published>
+    <updated>2017-11-30T11:30:21.000Z</updated>
+    <link href="https://support.neoxam.com/browse/NDF-4579" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4579" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4579" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:0e82ffed-a340-3253-a099-90276ac1529e</id>
+      <title type="text">NDF-4579</title>
+      <summary type="text">Amilton -Requ&#xEA;te SQL - Density- Global risk</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4579"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:4a660ce3-0a8a-3d70-bd35-a0833f666eaf</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; changed the status to To be tested on       &lt;a href="https://support.neoxam.com/browse/NDF-4579"&gt;&lt;span class='resolved-link'&gt;NDF-4579&lt;/span&gt; - Amilton -Requ&#xEA;te SQL - Density- Global risk&lt;/a&gt;
+   with a resolution of 'Won&amp;#39;t Fix'</title>
+    <summary type="html">&lt;blockquote&gt;
+  &lt;p&gt;We don't support global risk report for now.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;What we support is:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;accounting flow report
+	&lt;li&gt;asset report
+	&lt;li&gt;attribution of performance report
+	&lt;li&gt;benchmark report
+	&lt;li&gt;cash movement report
+	&lt;li&gt;cash report
+	&lt;li&gt;nav report
+	&lt;li&gt;performance analysis report
+	&lt;li&gt;private&lt;/ul&gt; &lt;a class="content-more" href="https://support.neoxam.com/browse/NDF-4579?focusedCommentId=1101486&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-1101486"&gt;Read more&lt;/a&gt;&lt;/blockquote&gt;
+</summary>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;We don't support global risk report for now.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;What we support is:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;accounting flow report
+	&lt;li&gt;asset report
+	&lt;li&gt;attribution of performance report
+	&lt;li&gt;benchmark report
+	&lt;li&gt;cash movement report
+	&lt;li&gt;cash report
+	&lt;li&gt;nav report
+	&lt;li&gt;performance analysis report
+	&lt;li&gt;private banking performance report
+	&lt;li&gt;repo report
+	&lt;li&gt;value at risk back testing report
+	&lt;li&gt;value at risk report
+&lt;/ul&gt;
+ &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T11:30:10.000Z</published>
+    <updated>2017-11-30T11:30:10.000Z</updated>
+    <category term="To be tested"/>
+    <link href="https://support.neoxam.com/browse/NDF-4579" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4579" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4579" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:object>
+      <id>urn:uuid:0e82ffed-a340-3253-a099-90276ac1529e</id>
+      <title type="text">NDF-4579</title>
+      <summary type="text">Amilton -Requ&#xEA;te SQL - Density- Global risk</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4579"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:8cc6f876-906b-340e-baa6-68cf3a2b8e7d</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; started progress on       &lt;a href="https://support.neoxam.com/browse/NDF-4579"&gt;&lt;span class='resolved-link'&gt;NDF-4579&lt;/span&gt; - Amilton -Requ&#xEA;te SQL - Density- Global risk&lt;/a&gt;
+  </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T11:27:44.000Z</published>
+    <updated>2017-11-30T11:27:44.000Z</updated>
+    <category term="started"/>
+    <link href="https://support.neoxam.com/browse/NDF-4579" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4579" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4579" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/start</activity:verb>
+    <activity:object>
+      <id>urn:uuid:0e82ffed-a340-3253-a099-90276ac1529e</id>
+      <title type="text">NDF-4579</title>
+      <summary type="text">Amilton -Requ&#xEA;te SQL - Density- Global risk</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4579"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:7237e714-cddc-3337-aad1-82a7cacc58e1</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; started progress on       &lt;a href="https://support.neoxam.com/browse/NDF-4584"&gt;NDF-4584 - Design Migration Tools - 1st migration issue&lt;/a&gt;
+  </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:56:16.000Z</published>
+    <updated>2017-11-30T10:56:16.000Z</updated>
+    <category term="started"/>
+    <link href="https://support.neoxam.com/browse/NDF-4584" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12718&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4584" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4584" rel="http://streams.atlassian.com/syndication/watch"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-vote/NDF-4584" rel="http://streams.atlassian.com/syndication/issue-vote"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/start</activity:verb>
+    <activity:object>
+      <id>urn:uuid:e0d806cb-1fa5-3ab4-9025-da09882515c8</id>
+      <title type="text">NDF-4584</title>
+      <summary type="text">Design Migration Tools - 1st migration issue</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4584"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:4b737c57-42f8-3c1f-99ce-08739e73d85c</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; updated 2 fields of       &lt;a href="https://support.neoxam.com/browse/NDF-4582"&gt;&lt;span class='resolved-link'&gt;NDF-4582&lt;/span&gt; - Filtre sur champ Paid (bool&#xE9;en)&lt;/a&gt;
+  </title>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '0 minutes'
+  &lt;li&gt;Logged '2 hours'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:55:35.000Z</published>
+    <updated>2017-11-30T10:55:35.000Z</updated>
+    <link href="https://support.neoxam.com/browse/NDF-4582" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4582" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4582" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4a9c4a83-3356-33c4-818c-c1e7e58ef4ff</id>
+      <title type="text">NDF-4582</title>
+      <summary type="text">Filtre sur champ Paid (bool&#xE9;en)</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4582"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:d6179fc1-c1d2-3b0a-92b5-da94c29df1ac</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; changed the status to To be tested on       &lt;a href="https://support.neoxam.com/browse/NDF-4582"&gt;&lt;span class='resolved-link'&gt;NDF-4582&lt;/span&gt; - Filtre sur champ Paid (bool&#xE9;en)&lt;/a&gt;
+   with a resolution of 'Won&amp;#39;t Fix'</title>
+    <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;Search boolean is removed.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a class="issue-link" href="https://support.neoxam.com/browse/NDR-512" title="La recherche dans les grid traite les booleans comme des string : a matche tout parce qu'on a un false"&gt;&lt;/a&gt;&lt;a class="issue-link" href="https://support.neoxam.com/browse/NDR-512" title="La recherche dans les grid traite les booleans comme des string : a matche tout parce qu'on a un false"&gt;NDR-512&lt;/a&gt;&lt;/p&gt; &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:55:11.000Z</published>
+    <updated>2017-11-30T10:55:11.000Z</updated>
+    <category term="To be tested"/>
+    <link href="https://support.neoxam.com/browse/NDF-4582" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4582" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4582" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4a9c4a83-3356-33c4-818c-c1e7e58ef4ff</id>
+      <title type="text">NDF-4582</title>
+      <summary type="text">Filtre sur champ Paid (bool&#xE9;en)</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4582"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:thr="http://purl.org/syndication/thread/1.0">
+    <id>urn:uuid:cc7b560d-ead1-32da-b55b-246d6b91a1b8</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; commented on       &lt;a href="https://support.neoxam.com/browse/NDF-2311"&gt;NDF-2311 - Probl&#xE8;me de coupon Orphan lors de l&amp;#39;ajout d&amp;#39;un coupon&lt;/a&gt;
+  </title>
+    <content type="html">&lt;blockquote&gt;
+   &lt;p&gt;&lt;a class="user-hover" href="https://support.neoxam.com/secure/ViewProfile.jspa?name=julien.vallet"&gt;Julien Vallet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I will review it.&lt;/p&gt;   &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:25:20.000Z</published>
+    <updated>2017-11-30T10:25:20.000Z</updated>
+    <category term="comment"/>
+    <link href="https://support.neoxam.com/browse/NDF-2311?focusedCommentId=1101410&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-1101410" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12708&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Defect"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-2311" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-2311" rel="http://streams.atlassian.com/syndication/watch"/>
+    <thr:in-reply-to ref="urn:uuid:1f909064-4e13-3d29-a5a2-3b7e88f30be0"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:c3b9762b-66ac-35c7-bac6-4a35705082cb</id>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-2311?focusedCommentId=1101410&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-1101410"/>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:1f909064-4e13-3d29-a5a2-3b7e88f30be0</id>
+      <title type="text">NDF-2311</title>
+      <summary type="text">Probl&#xE8;me de coupon Orphan lors de l'ajout d'un coupon</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-2311"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:33f23364-a57c-3f8d-bdda-b2aa2149c0df</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; started progress on       &lt;a href="https://support.neoxam.com/browse/NDF-4582"&gt;&lt;span class='resolved-link'&gt;NDF-4582&lt;/span&gt; - Filtre sur champ Paid (bool&#xE9;en)&lt;/a&gt;
+  </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:20:02.000Z</published>
+    <updated>2017-11-30T10:20:02.000Z</updated>
+    <category term="started"/>
+    <link href="https://support.neoxam.com/browse/NDF-4582" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12711&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Request"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4582" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4582" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/start</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4a9c4a83-3356-33c4-818c-c1e7e58ef4ff</id>
+      <title type="text">NDF-4582</title>
+      <summary type="text">Filtre sur champ Paid (bool&#xE9;en)</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4582"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:7d03bd0f-c1f6-3385-b318-cb4797fa9763</id>
+    <title type="html">&lt;a href="https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu" class="activity-item-user activity-item-author"&gt;Chenyu Lu&lt;/a&gt; logged '1 day' on       &lt;a href="https://support.neoxam.com/browse/NDF-4523"&gt;&lt;span class='resolved-link'&gt;NDF-4523&lt;/span&gt; - Contourner la sandbox de MacOS lors d&amp;#39;un import sous Excel 2016&lt;/a&gt;
+  </title>
+    <content type="html">&lt;blockquote&gt;
+   &lt;p&gt;test&lt;/p&gt;   &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Chenyu Lu</name>
+      <uri>https://support.neoxam.com/secure/ViewProfile.jspa?name=chenyu.lu</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=16" media:height="16" media:width="16"/>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="https://support.neoxam.com/secure/useravatar?ownerId=chenyu.lu&amp;avatarId=19803&amp;s=48" media:height="48" media:width="48"/>
+      <usr:username>chenyu.lu</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2017-11-30T10:13:51.000Z</published>
+    <updated>2017-11-30T10:13:51.000Z</updated>
+    <link href="https://support.neoxam.com/browse/NDF-4523" rel="alternate"/>
+    <link href="https://support.neoxam.com/secure/viewavatar?size=xsmall&amp;avatarId=12718&amp;avatarType=issuetype" rel="http://streams.atlassian.com/syndication/icon" title="Task"/>
+    <link href="https://support.neoxam.com/s/-8vrslb/74004/38c81cf88967eafb11e2dc6834081ecc/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css"/>
+    <link href="https://support.neoxam.com/plugins/servlet/streamscomments/issues/NDF-4523" rel="http://streams.atlassian.com/syndication/reply-to"/>
+    <link href="https://support.neoxam.com/rest/jira-activity-stream/1.0/actions/issue-watch/NDF-4523" rel="http://streams.atlassian.com/syndication/watch"/>
+    <generator uri="https://support.neoxam.com"/>
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4cf40c31-a81d-393a-b45e-1ae336b42128</id>
+      <title type="text">NDF-4523</title>
+      <summary type="text">Contourner la sandbox de MacOS lors d'un import sous Excel 2016</summary>
+      <link rel="alternate" href="https://support.neoxam.com/browse/NDF-4523"/>
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0100</atlassian:timezone-offset>
+  </entry>
+</feed>
