@@ -4,17 +4,26 @@ import datetime
 from lxml import etree
 import collections
 import time
+import argparse
 
 print('Welcome to temporobo!')
-
-user = 'chenyu.lu'
-pwd = '963574159lcy'
-
+print('A robot to log your work on neoxam JIRA for a day. Make both you and your neoxam family happy.')
 now = datetime.datetime.now()
 today = now.strftime("%Y-%m-%d")
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-u', '--user', required=True)
+parser.add_argument('-p', '--password', required=True)
+parser.add_argument('-d', '--date', default=today, help='The date to log work, format is "YYYY-mm-dd", default: today')
+args = parser.parse_args()
+
+user = args.user
+pwd = args.password
+today = args.date
+
 dayfmt = "%Y-%m-%dT%H:%M:%S"
-startOfDay = now.strftime("%Y-%m-%dT00:00:00")
-endOfDay = now.strftime("%Y-%m-%dT23:59:59")
+startOfDay = today + 'T00:00:00'
+endOfDay = today + 'T23:59:59'
 startOfDay = datetime.datetime.strptime(startOfDay, dayfmt)
 endOfDay = datetime.datetime.strptime(endOfDay, dayfmt)
 startOfDay = int(startOfDay.timestamp() * 1000)
