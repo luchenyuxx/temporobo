@@ -40,6 +40,9 @@ def workon(aNiceDay):
     tree = etree.fromstring(result.text)
 
     entries = tree.findall('./entry', tree.nsmap)
+    if len(entries) == 0:
+        print('You have no activities on ' + aNiceDay + ', neoxam family is not happy!')
+        return
 
     def extractTitle(rawTitle):
         isRead = True
@@ -122,7 +125,7 @@ def workNow():
 if today is not None:
     workon(today)
 else:
-    print('The robot will log your work on JIRA at 19:00 every day')
+    print('The robot will log your work on JIRA at 19:00 every day.')
     schedule.every().day.at('19:00').do(workNow)
     while True:
         schedule.run_pending()
