@@ -24,7 +24,7 @@ pwd = args.password
 today = args.date
 
 def workon(aNiceDay):
-    print('Going to log work for' + str(aNiceDay))
+    print('Going to log work for ' + str(aNiceDay))
     dayfmt = "%Y-%m-%dT%H:%M:%S"
     startOfDay = aNiceDay + 'T00:00:00'
     endOfDay = aNiceDay + 'T23:59:59'
@@ -107,7 +107,8 @@ def workon(aNiceDay):
         print(str(frequency)+' activities on issue '+issue)
         secondSpent = int(totalSeconds * frequency / sumFrequency)
         header = {'Content-Type':'application/json'}
-        payload = json.dumps({'comment':'work', 'timeSpentSeconds':secondSpent})
+        started = aNiceDay+'T15:00:00.000+0000'
+        payload = json.dumps({'comment':'work', 'timeSpentSeconds':secondSpent, 'started':started})
         url = 'https://support.neoxam.com/rest/api/2/issue/'+issue+'/worklog'
         r = requests.post(url, data=payload, headers=header, auth=(user, pwd))
         if r.status_code == 201:
