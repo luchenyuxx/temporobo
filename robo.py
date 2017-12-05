@@ -9,7 +9,7 @@ import argparse
 import json
 
 print('Welcome to temporobo!')
-print('A robot to log your work on neoxam JIRA 8 hours a day. Make both you and your neoxam family happy.')
+print('A robot to log your work on neoxam JIRA 8 hours a day. Make both you and your neoxam family happy. :)')
 now = datetime.datetime.now()
 today = now.strftime("%Y-%m-%d")
 
