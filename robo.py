@@ -1,16 +1,30 @@
-import subprocess
+import requests
 import re
 import datetime
 from lxml import etree
+import collections
+import time
 
 print('Welcome to temporobo!')
 
+user = 'chenyu.lu'
+pwd = '963574159lcy'
+
+now = datetime.datetime.now()
+today = now.strftime("%Y-%m-%d")
+dayfmt = "%Y-%m-%dT%H:%M:%S"
+startOfDay = now.strftime("%Y-%m-%dT00:00:00")
+endOfDay = now.strftime("%Y-%m-%dT23:59:59")
+startOfDay = datetime.datetime.strptime(startOfDay, dayfmt)
+endOfDay = datetime.datetime.strptime(endOfDay, dayfmt)
+startOfDay = int(startOfDay.timestamp() * 1000)
+endOfDay = int(endOfDay.timestamp() * 1000)
+
 # Get the stream activities
-result = subprocess.run(['curl', '-u', 'chenyu.lu:963574159lcy', 'https://support.neoxam.com/activity?streams=user+IS+chenyu.lu'], stdout=subprocess.PIPE)
+streamUrl = 'https://support.neoxam.com/activity?streams=user+IS+'+user+'&streams=update-date+BETWEEN+' + str(startOfDay) + '+' + str(endOfDay)
+result = requests.get(streamUrl, auth=(user, pwd))
 
-result.stdout.decode('utf-8')
-
-tree = etree.fromstring(result.stdout.decode('utf-8'))
+tree = etree.fromstring(result.text)
 
 entries = tree.findall('./entry', tree.nsmap)
 
@@ -33,9 +47,9 @@ def getTextOrElse(e, default):
             return default
 
 timefmt = '%Y-%m-%dT%H:%M:%S.%fZ'
-pattern = re.compile('((NDF|NDR)-\d+)')
+idPattern = re.compile('((NDF|NDR)-\d+)')
 def findIdInTitle(title):
-    result = pattern.search(title)
+    result = idPattern.search(title)
     if result is not None:
         return result.group(1)
     else:
@@ -61,3 +75,27 @@ for a in activities:
     print('issue id: ' + (a.issueId or ""))
     print('author: ' + a.author)
     print('date: ' + str(a.date))
+
+issueIds = list(map(lambda a: a.issueId, activities))
+
+issueFrequency = collections.Counter(issueIds)
+
+sumFrequency = sum(issueFrequency.values())
+print('There are total '+str(sumFrequency)+' activities on ' +today)
+
+totalSeconds = 8 * 3600
+
+for issue in issueFrequency.keys():
+    time.sleep(1)
+    frequency = issueFrequency[issue]
+    print(str(frequency)+' activities on issue '+issue)
+    secondSpent = int(totalSeconds * frequency / sumFrequency)
+    header = {'Content-Type':'application/json'}
+    payload = json.dumps({'comment':'work', 'timeSpentSeconds':secondSpent})
+    url = 'https://support.neoxam.com/rest/api/2/issue/'+issue+'/worklog'
+    r = requests.post(url, data=payload, headers=header, auth=(user, pwd))
+    if r.status_code == 201:
+        print('Successfully log '+str(secondSpent)+' seconds work to issue '+issue)
+    else:
+        print('Failed to log '+str(secondSpent)+' seconds work to issue '+issue)
+
