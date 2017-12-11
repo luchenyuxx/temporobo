@@ -8,22 +8,7 @@ import time
 import argparse
 import json
 
-print('Welcome to temporobo!')
-print('A robot to log your work on neoxam JIRA 8 hours a day. Make both you and your neoxam family happy. :)')
-now = datetime.datetime.now()
-today = now.strftime("%Y-%m-%d")
-
-parser = argparse.ArgumentParser()
-parser.add_argument('-u', '--user', required=True, help='Your JIRA login')
-parser.add_argument('-p', '--password', required=True, help='Your JIRA password')
-parser.add_argument('-d', '--date', help='The date to log work, format is "YYYY-mm-dd". if empty, the robot work at 19:00 every day.')
-args = parser.parse_args()
-
-user = args.user
-pwd = args.password
-today = args.date
-
-def workon(aNiceDay):
+def workon(aNiceDay, user, pwd):
     print('Going to log work for ' + str(aNiceDay))
     dayfmt = "%Y-%m-%dT%H:%M:%S"
     startOfDay = aNiceDay + 'T00:00:00'
@@ -116,19 +101,36 @@ def workon(aNiceDay):
         else:
             print('Failed to log '+str(secondSpent)+' seconds work to issue '+issue)
 
-def workNow():
-    currentTime = datetime.datetime.now()
-    currentDay = currentTime.strftime("%Y-%m-%d")
-    print('Now is ' + str(currentTime) +", I'm going to work.")
-    workon(currentDay)
-    print('Job is done. See you tomorrow')
+def workNow(usr, pwd):
+    def r():
+        currentTime = datetime.datetime.now()
+        currentDay = currentTime.strftime("%Y-%m-%d")
+        print('Now is ' + str(currentTime) +", I'm going to work.")
+        workon(currentDay, usr, pwd)
+        print('Job is done. See you tomorrow')
+    return r
 
-if today is not None:
-    workon(today)
-else:
-    print('The robot will log your work on JIRA at 19:00 every day.')
-    schedule.every().day.at('19:00').do(workNow)
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
+if __name__ == '__main__':
+    print('Welcome to temporobo!')
+    print('A robot to log your work on neoxam JIRA 8 hours a day. Make both you and your neoxam family happy. :)')
+    now = datetime.datetime.now()
+    today = now.strftime("%Y-%m-%d")
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-u', '--user', required=True, help='Your JIRA login')
+    parser.add_argument('-p', '--password', required=True, help='Your JIRA password')
+    parser.add_argument('-d', '--date', help='The date to log work, format is "YYYY-mm-dd". if empty, the robot work at 19:00 every day.')
+    args = parser.parse_args()
+
+    user = args.user
+    pwd = args.password
+    today = args.date
+
+    if today is not None:
+        workon(today, usr, pwd)
+    else:
+        print('The robot will log your work on JIRA at 19:00 every day.')
+        schedule.every().day.at('19:00').do(workNow(user, pwd))
+        while True:
+            schedule.run_pending()
+            time.sleep(1)
