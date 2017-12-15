@@ -24,7 +24,7 @@ def _findIssueId(string):
     if result is not None:
         return result.group(1)
     else:
-        return None
+        return 'Unknown Id'
 
 def _textOrElse(tree, default):
     " get tree text, if tree is None, return default "
