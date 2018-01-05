@@ -28,7 +28,7 @@ def workon(aNiceDay, user, pwd):
         print('author: ' + a.author)
         print('date: ' + str(a.date))
 
-    issueIds = list(map(lambda a: a.issueId, activities))
+    issueIds = list(a.issueId for a in activities if a is not None)
 
     issueFrequency = collections.Counter(issueIds)
 
