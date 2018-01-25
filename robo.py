@@ -28,7 +28,8 @@ def workon(aNiceDay, user, pwd):
         print('author: ' + a.author)
         print('date: ' + str(a.date))
 
-    issueIds = list(a.issueId for a in activities if a is not None)
+    issueIds = list(a.issueId for a in activities if a is not None and a.issueId
+                    is not None)
 
     issueFrequency = collections.Counter(issueIds)
 
