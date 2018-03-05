@@ -5,6 +5,7 @@ import collections
 import time
 import argparse
 import json
+import getpass
 from helpers import (Activity, getActivities, logWork)
 
 def workon(aNiceDay, user, pwd):
@@ -66,12 +67,13 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-u', '--user', required=True, help='Your JIRA login')
-    parser.add_argument('-p', '--password', required=True, help='Your JIRA password')
+    # parser.add_argument('-p', '--password', required=True, help='Your JIRA password')
     parser.add_argument('-d', '--date', help='The date to log work, format is "YYYY-mm-dd". if empty, the robot work at 19:00 every day.')
     args = parser.parse_args()
 
     user = args.user
-    pwd = args.password
+    # pwd = args.password
+    pwd = getpass.getpass("JIRA password:")
     today = args.date
 
     if today is not None:
