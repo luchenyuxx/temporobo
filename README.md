@@ -10,7 +10,14 @@ forget how much time did you spend on each ticket.
 
 It requires Python > 3.6.
 
+Work as daemon:
 ```
 pip3.6 install -r requirement.txt
-python3.6 robo.py -u <login> -p <password>
+python3.6 robo.py -u <login>
+```
+
+or, log for specific date:
+
+```
+python3.6 robo.py -u <login> -d year-month-date
 ```
